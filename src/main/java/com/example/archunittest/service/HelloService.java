@@ -8,7 +8,6 @@ public class HelloService {
     HelloPersistencePort helloPersistencePort;
 
     public void hello(){
-        System.out.println("Service Hello~");
         this.helloPersistencePort.saveHello();
     }
 }
